@@ -1,9 +1,13 @@
-
+{
+    "prefix":"e!"
+}
 const botconfig = require("./botconfig.json");
 const Discord = require("discord.js");
 
 const bot = new Discord.Client({disableEveryone: true});
 
+//procfile
+woker: node; bot.js 
 
 //online status
 bot.on("ready", async () => {
@@ -19,5 +23,23 @@ let prefix = botconfig.prefix;
 let messageArray = message.content.split(" ")
 let cmd = messageArray[0];
 let args = messageArray.slice[0];
+
+//hello command
+if(cmd === `${prefix}hello`){
+    return message.channel.send("Hello! :3")
+}
+
+//test command
+if(cmd === `${prefix}test`){
+    return message.channel.send("Hello! I am okay! :D")
+}
+
+})
+
+
+
+
+
+bot.login(botconfig.token);
 
 client.login(process.env.BOT_TOKEN);
