@@ -1,7 +1,3 @@
-{
-"token":"NzE0MzAyNDg2OTk4OTQxODA3.XsssRA.hUjSNET7mUoec-l50zP0km9WZ-w",
-"prefix": "e!"
-}
 
 const botconfig = require("./botconfig.json");
 const Discord = require("discord.js");
