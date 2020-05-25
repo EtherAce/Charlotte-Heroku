@@ -6,9 +6,6 @@ const Discord = require("discord.js");
 
 const bot = new Discord.Client({disableEveryone: true});
 
-//procfile
-woker: node; bot.js 
-
 //online status
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is online!` )
