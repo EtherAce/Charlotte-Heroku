@@ -1,1 +1,1 @@
-woker: node main.js
+woker: node index.js
