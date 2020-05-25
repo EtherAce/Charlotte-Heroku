@@ -1,7 +1,14 @@
+
+const Discord = require("discord.js");
+const client = new Discord.client()
+
+client.on('ready', () => {
+    console.log('Online!')
+});
+
 {
     "prefix":"e!"
 }
-const Discord = require("discord.js");
 
 const bot = new Discord.Client({disableEveryone: true});
 
